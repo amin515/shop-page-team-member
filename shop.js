@@ -73,8 +73,9 @@ function shopDesign(){
 
         data += `
         
-        <div class="col-md-4 my-2">
+        <div class="col-md-4 my-2" id="row_close">
                             <div class="card">
+                            <button class="close" id="off_btn">&times</button>
                                 <img style="width: 100%; height: 250px; object-fit: cover;" src="${data2.photo_a}"
                                     alt="">
                                 <div class="card-body ">
