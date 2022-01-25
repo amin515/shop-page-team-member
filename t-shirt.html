@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product page</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./t-shirt.css">
+</head>
+
+<body>
+
+    <div class="container-one">
+        <h1 class="display-1 text-center ">Team Member</h1>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+
+                <div class="card my-2">
+                    <div class="card-body">
+                        <h2>Add Member</h2>
+                        <hr>
+                        <form id="main_form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Name" class="form-control" name="name">
+                            </div>
+                            <hr>
+
+                            <br>
+                            Skills
+                            <hr>
+                            <div class="form-group">
+                                <input name="skills" type="checkbox" value="React Developer" id="react"><label
+                                    for="react">React
+                                    Developer</label> <br>
+                                <input name="skills" type="checkbox" value="Mern Developer" id="mern"><label
+                                    for="mern">Mern
+                                    Developer</label> <br>
+                                <input name="skills" type="checkbox" value="Python Developer" id="python"><label
+                                    for="python">Python
+                                    Developer</label> <br>
+                                <input name="skills" type="checkbox" value="Laravel Developer" id="laravel"><label
+                                    for="laravel">Laravel Developer</label> <br>
+                            </div>
+                            <div class="form-group">
+                                <label for="Gender">Gender</label>
+                                <hr>
+                                <input name="gender" type="radio" value="Male" id="react"><label for="Male">Male</label>
+                                <br>
+                                <input name="gender" type="radio" value="Female" id="mern"><label
+                                    for="Female">Female</label> <br>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="Photo">Photo</label>
+                                <input type="text" placeholder="Photo" class="form-control" name="photo">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Add new member" class="btn btn-block btn-success">
+                            </div>
+                        </form>
+                        <hr>
+                        <div class="form-group">
+                            <input type="submit" value="Add Social Media" class="btn btn-info btn-block" id="btn">
+                        </div>
+                        <form class="form-2">
+
+                            <div class="form-group">
+                                <button class="close" id="close">&times</button>
+                                <span class="span1"><i class="fab fa-facebook-f" id="facebook"></i></span>
+                                <input name="facebook" type="text" placeholder="Add facebook link"
+                                    class="form-control a1010 w-75">
+                                <span class="span1"><i class="fab fa-linkedin" id="linkedin"></i></span>
+                                <input name="linkedin" type="text" placeholder="Add linkedin link"
+                                    class="form-control a1010 w-75">
+                                <span class="span1"><i class="fab fa-twitter" id="twitter"></i></span>
+                                <input name="twitter" type="text" placeholder="Add twitter link"
+                                    class="form-control a1010 w-75">
+
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-8">
+                <div class="maxHeight">
+
+                    <div class="row result">
+
+
+
+
+                        <!-- <div class="col-md-4 my-2">
+                            <div class="card shadow">
+                                <img style="width: 100%; height: 270px; object-fit: cover;"
+                                    src="https://thumbs.dreamstime.com/b/handsome-man-black-suit-white-shirt-posing-studio-attractive-guy-fashion-hairstyle-confident-man-short-beard-125019349.jpg"
+                                    alt="">
+                                <div class="card-body">
+
+                                    <h2>Nur Amin</h2>
+                                    <p>Gender : Male</p>
+                                    Skill
+                                    <hr>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">alo</li>
+                                        <li class="list-group-item">potol</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Team member end -->
+    <!-- Shop Page start -->
+
+
+    <div class="container-two">
+        <h1 class="display-1 text-center ">Shop Page Design</h1>
+        <div class="row">
+            
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <input type="submit" value="Add new product" class="btn btn-success btn-block" id="shop_btn">
+                </div>
+                <div class="card form-threee">
+                    <div class="card-body">
+                        <button class="close" id="close1">&times</button>
+                        <form id="form-three" class="form-three">
+
+                            <div class="form-group">
+                                <input name="name" type="text" class="form-control" id="name"
+                                    placeholder="Product Name">
+                            </div>
+                            <div class="form-group">
+                                <input name="regular" type="number" class="form-control" id="name"
+                                    placeholder="Product Regular Price">
+                            </div>
+                            <div class="form-group">
+                                <input name="sale" type="number" class="form-control" id="name"
+                                    placeholder="Product Sale Price">
+                            </div>
+                            <div class="form-group">
+                                <input name="photo" type="text" class="form-control" id="name"
+                                    placeholder="Product Image">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-success btn-block" value="Add product">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="row result_shop">
+
+                    <!-- <div class="col-md-4 my-2">
+                            <div class="card">
+                                <img style="width: 100%; height: 250px; object-fit: cover;" src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80"
+                                    alt="">
+                                <div class="card-body">
+
+                                    <h4>Fresh Strawberry</h4>
+                                    <span><p class="p-span"> Regular Price: <span class="text-decoration-line-through">$70</span>  <span>Sale Price: $55</span></p></span>
+                                </div>
+                                <li style="list-style: none; text-align: center;display:flex;">
+                                    <button><span><i class="far fa-heart"></i></span></button>
+                                    <button class="btn btn-light btn-block w-50" value="Add to chart">Add to chart</button>
+                                    <button><span><i class="fas fa-sync-alt"></i></span></button>
+                                </li>
+                              
+                            </div>
+                        </div> -->
+
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+
+        </div>
+
+        <script src="./t-shirt-function.js"></script>
+        <script src="./t-shirt.js"></script>
+        <script src="./shop.js"></script>
+
+</body>
+
+</html>

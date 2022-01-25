@@ -1,0 +1,110 @@
+body{
+   background: bisque; 
+}
+
+
+/* .col-md-4.my-2 {
+   min-height: 50vmax;
+} */
+
+.row.result {
+   max-height: 600px !important;
+}
+input.form-control.a1010.w-75 {
+   margin-left: 30px;
+}
+
+
+span.span1 {
+   top: 30px;
+   position: relative;
+}
+
+form.form-2 {
+   border: 1px dashed #ddd;
+   padding: 10px;
+}
+form.form-2 {
+   display: none;
+}
+
+button#close {
+   margin-top: -10px;
+}
+
+button#close::before {
+   content: '';
+   position: absolute;
+   top: 2px;
+   left: -4px;
+   width: 25px;
+   height: 25px;
+   background-color: black;
+   z-index: -99999;
+   border-radius: 50%;
+}
+
+button#close1 {
+  
+   position: relative;
+   top: -10px;
+   color: white;
+   
+}
+
+button#close1::before {
+   content: '';
+   position: absolute;
+   top: 2px;
+   left: 18px;
+   width: 25px;
+   height: 25px;
+   background-color: black;
+   z-index: -99999;
+   border-radius: 50%;
+}
+
+
+.form-threee{
+   transform: scaleY(0);
+}
+
+
+button.btn.btn-light.btn-block.w-50 {
+   margin-left: 0px;
+   width: 64% !important;
+}
+button {
+   width: 60px;
+   border: none;
+   border-radius: 5p;
+}
+
+.p-span{
+   font-weight: bold;
+}
+
+span.text-decoration-line-through {
+   text-decoration: line-through;
+   opacity: 0.5;
+}
+.card.shadow {
+   height: 600px;
+}
+li.list-group-item {
+   height: 29px;
+}
+
+li.list-group-item {
+   height: 29px;
+   line-height: 1px;
+}
+
+.container-two{
+   margin-top: 460px;
+}
+
+
+h1.display-1.text-center {
+   border-bottom: 2px solid;
+}
